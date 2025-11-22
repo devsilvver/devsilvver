@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.imgur.com/pKyivbK.png" width="100%" alt="Banner Guilherme Silvestrini" />
+  <img src="https://i.imgur.com/IOeXyTV.png" width="100%" alt="Banner Guilherme Silvestrini" />
   
   <h1>Olá! 👋 Eu sou o Guilherme Silvestrini</h1>
   <p>
