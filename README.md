@@ -132,6 +132,16 @@ Boa parte do que construo é **código privado em uso real**. Alguns exemplos:
 
 > 💾 O **Gestor Financeiro Pessoal** para Windows tem instaladores e atualizações públicos em [gestor-financeiro-releases](https://github.com/devsilvver/gestor-financeiro-releases/releases).
 
+## 🐍 Contribuições
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devsilvver/devsilvver/output/github-snake-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devsilvver/devsilvver/output/github-snake.svg"/>
+    <img src="https://raw.githubusercontent.com/devsilvver/devsilvver/output/github-snake-dark.svg" alt="Cobrinha comendo o gráfico de contribuições"/>
+  </picture>
+</p>
+
 ## 🤝 Vamos conversar?
 
 Aberto a conversar sobre **desenvolvimento web, automação, sistemas de gestão** ou colaborar em um projeto.
