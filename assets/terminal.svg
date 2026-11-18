@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="372" viewBox="0 0 820 372" role="img" aria-label="Terminal animado apresentando Guilherme Silvestrini">
+  <title>guilherme@devsilvver: ~</title>
+  <defs>
+    <linearGradient id="borda" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00c6ff"/>
+      <stop offset="50%" stop-color="#7f5af0"/>
+      <stop offset="100%" stop-color="#00c6ff"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 .5 .5" to="360 .5 .5" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="c1"><rect x="0" y="52" height="30" width="0"><animate attributeName="width" from="0" to="820" begin="0.5s" dur="0.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="0" y="104" height="30" width="0"><animate attributeName="width" from="0" to="820" begin="2.0s" dur="1.0s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c7"><rect x="0" y="208" height="30" width="0"><animate attributeName="width" from="0" to="820" begin="4.3s" dur="1.0s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <style>
+    text { font-family: 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace; font-size: 17px; fill: #c9d1d9; }
+    .p { fill: #00c6ff; font-weight: 700; }
+    .k { fill: #7ee787; }
+    .a { fill: #d2a8ff; }
+    .m { fill: #8b949e; }
+    .ok { fill: #3fb950; font-weight: 700; }
+    .t { font-size: 13px; fill: #8b949e; }
+  </style>
+
+  <rect x="1.5" y="1.5" width="817" height="369" rx="12" fill="#0d1117" stroke="url(#borda)" stroke-width="3"/>
+  <rect x="3" y="3" width="814" height="34" rx="10" fill="#161b22"/>
+  <rect x="3" y="26" width="814" height="11" fill="#161b22"/>
+  <circle cx="24" cy="20" r="6.5" fill="#ff5f57"/>
+  <circle cx="45" cy="20" r="6.5" fill="#febc2e"/>
+  <circle cx="66" cy="20" r="6.5" fill="#28c840"/>
+  <text x="410" y="25" text-anchor="middle" class="t">guilherme@devsilvver: ~</text>
+
+  <g clip-path="url(#c1)"><text x="24" y="74" xml:space="preserve"><tspan class="p">❯</tspan> whoami</text></g>
+  <text x="24" y="100" opacity="0" xml:space="preserve">Guilherme Silvestrini <tspan class="m">—</tspan> <tspan class="a">desenvolvedor full stack</tspan> <tspan class="m">· Brasil</tspan><set attributeName="opacity" to="1" begin="1.6s" fill="freeze"/></text>
+
+  <g clip-path="url(#c3)"><text x="24" y="126" xml:space="preserve"><tspan class="p">❯</tspan> cat stack.txt</text></g>
+  <text x="24" y="152" opacity="0" xml:space="preserve"><tspan class="k">front </tspan> React · TypeScript · Tailwind CSS · Vite<set attributeName="opacity" to="1" begin="3.2s" fill="freeze"/></text>
+  <text x="24" y="178" opacity="0" xml:space="preserve"><tspan class="k">back  </tspan> Node.js · C# / .NET · PostgreSQL · MySQL<set attributeName="opacity" to="1" begin="3.5s" fill="freeze"/></text>
+  <text x="24" y="204" opacity="0" xml:space="preserve"><tspan class="k">infra </tspan> Docker · nginx · Linux · Tailscale · Home Assistant<set attributeName="opacity" to="1" begin="3.8s" fill="freeze"/></text>
+
+  <g clip-path="url(#c7)"><text x="24" y="230" xml:space="preserve"><tspan class="p">❯</tspan> ./status --agora</text></g>
+  <text x="24" y="256" opacity="0" xml:space="preserve"><tspan class="ok">✔</tspan> sistemas de gestão e automações rodando em produção<set attributeName="opacity" to="1" begin="5.5s" fill="freeze"/></text>
+  <text x="24" y="282" opacity="0" xml:space="preserve"><tspan class="ok">✔</tspan> aplicativos de desktop para Windows em C#<set attributeName="opacity" to="1" begin="5.8s" fill="freeze"/></text>
+  <text x="24" y="308" opacity="0" xml:space="preserve"><tspan class="ok">✔</tspan> servidores próprios: VPS, homelab e bots<set attributeName="opacity" to="1" begin="6.1s" fill="freeze"/></text>
+
+  <g opacity="0">
+    <set attributeName="opacity" to="1" begin="6.6s" fill="freeze"/>
+    <text x="24" y="340" xml:space="preserve"><tspan class="p">❯</tspan></text>
+    <rect x="44" y="326" width="10" height="19" fill="#00c6ff">
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" begin="6.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
